@@ -1,0 +1,27 @@
+import javax.swing.*;
+import java.awt.*;
+public class ShowGridLayout extends JFrame{
+	private JLabel j1;
+	private JButton ok,cancel;
+	private JTextField jt;
+	private JPanel jp1,jp2;
+	private JButton[] jb;
+	private static String str="";
+	public ShowGridLayout() {
+		j1=new JLabel("请输入手机号");
+		ok=new JButton("确认");
+		cancel=new JButton("取消");
+		jt=new JTextField(15);
+		jp1=new JPanel();
+		jp2=new JPanel();
+		jb=new JButton[10];
+		for(int i=0;i<10;i++) {
+			jb[i]=new JButton(new Integer(i).toString());
+			jb[i].addActionListener(new Lis());
+		}
+		
+	}
+}
+public class ShowGridLayout {
+
+}

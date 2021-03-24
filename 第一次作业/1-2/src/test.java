@@ -1,0 +1,6 @@
+
+public class test {
+	public static void main(String[] args) {
+	System.out.println("Èí¼ş1902 201916040210 ÅíÓÂ½Ü");
+	}
+}

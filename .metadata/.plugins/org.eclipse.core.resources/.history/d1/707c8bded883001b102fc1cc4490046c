@@ -1,0 +1,6 @@
+import java.util.*;
+public class HealthCheckIn {
+	public static void main(String[] args) {
+		
+	}
+}
